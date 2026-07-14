@@ -30,4 +30,10 @@ def get_student(student_id:int):
         raise HTTPException(status_code=404, detail="Student not found")
     return students[student_id]
 
+@app.get("/empoyees/{employees_id}")
+def get_customer(employees_id:int):
+    return{
+        "customer_id":employees_id
+    }
+
 
