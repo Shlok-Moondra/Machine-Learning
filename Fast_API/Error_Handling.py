@@ -36,5 +36,3 @@ def get_customer(employees_id:int):
         "customer_id":employees_id
     }
 
-
-print("hello world")
